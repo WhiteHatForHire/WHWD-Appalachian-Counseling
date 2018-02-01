@@ -1,5 +1,44 @@
-.frontLanding{
-  height: 40vh;
+.frontLanding {
+  height: 90vh;
   width: 100%;
-  
+  background-image: linear-gradient(rgba(0,0,0,0) 30%, rgba(0,0,0,.7) 80%), url(../img/Font-Page-Dock.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.logo {
+  position: absolute;
+  height: 430px;
+  width: auto;
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.frontLanding {
+  position: relative;
+  color: white;
+  font-size: 1.8rem;
+  &--p1 {
+    position: absolute;
+    right: 40%;
+    bottom: 25%;
+  }
+  &--p2 {
+    position: absolute;
+    right: 27%;
+    bottom: 20%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    height: 350px;
+    width: auto;
+    top: 450px;
+    margin: 0 auto;
+
+    
+  }
 }
