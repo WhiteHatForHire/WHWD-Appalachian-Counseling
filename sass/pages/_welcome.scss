@@ -1,19 +1,19 @@
 .frontLanding {
   height: 90vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0) 30%, rgba(0,0,0,.7) 80%), url(../img/Font-Page-Dock.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0) 100%, rgba(0,0,0,.7) 80%), url(../img/Font-Page-Dock.jpg);
   background-size: cover;
   background-position: top;
 }
 
 .logo {
   position: absolute;
-  height: 430px;
-  width: auto;
-  top: 100px;
-  left: 0;
+  height: auto;
+  width: 25vw;
+  top: 10px;
+  left: 10px;
   right: 0;
-  margin: 0 auto;
+  // margin: 0 auto;
 }
 
 .frontLanding {
@@ -22,17 +22,17 @@
   font-size: 1.8rem;
   &--p1 {
     position: absolute;
-    right: 40%;
+    right: 43%;
     bottom: 25%;
   }
   &--p2 {
     position: absolute;
-    right: 27%;
+    right: 34%;
     bottom: 20%;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 250px) {
   .logo {
     height: 350px;
     width: auto;
@@ -40,5 +40,12 @@
     margin: 0 auto;
 
     
+  }
+}
+
+@media only screen and (max-width: 1230px) and (min-width: 768px) {
+  .logo {
+    top: 100px;
+    width: 30vw;
   }
 }
