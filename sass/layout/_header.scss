@@ -8,6 +8,7 @@
 // 	box-sizing: border-box;
 // }
 .header {
+  font-family: $baskerville bold;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   border-bottom: 4px solid black;
@@ -26,7 +27,7 @@
     list-style: none;
     a {
       transition: all 0.5s;
-      font-size: 1.7rem;
+      font-size: 1.9rem;
       color: white;
       text-decoration: none;
       padding: 10px 25px;
