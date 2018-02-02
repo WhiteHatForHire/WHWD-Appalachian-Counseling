@@ -62,14 +62,33 @@
 
 footer {
   .white_message {
+    display: flex;
+    // margin: 0 auto;
+    font-size: 2rem;
+    height: 8rem;
     font-family: $baskerville;
-    text-align: center;
+    // text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 1;
   }
   .brown_message {
+    background-color: $main-brown;
+    line-height: 1.5;
+    padding-top: 2rem;
     p {
-      font-family: $baskerville i;
+      margin: auto;
+      width: 45%;
+      text-align: center;
+      font-family: $baskerville;
+      font-style: italic;
     }
     span {
+      font-weight: bold;
+    }
+    #copyright {
+      font-style: initial;
+      padding-top: 2rem;
     }
   }
 }
@@ -93,6 +112,18 @@ footer {
       bottom: 5%;
       left: 25%;
       right: 0;
+    }
+  }
+  footer {
+    .white_message {
+      font-size: 2rem;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .brown_message {
+      p {
+        width: 80%;
+      }
     }
   }
 }

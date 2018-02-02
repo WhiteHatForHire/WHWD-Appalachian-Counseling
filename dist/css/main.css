@@ -575,11 +575,29 @@ header {
       height: 30%; }
 
 footer .white_message {
+  display: flex;
+  font-size: 2rem;
+  height: 8rem;
   font-family: "Libre Baskerville", serif;
-  text-align: center; }
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 1; }
 
-footer .brown_message p {
-  font-family: "Libre Baskerville", serif i; }
+footer .brown_message {
+  background-color: #8c6f55;
+  line-height: 1.5;
+  padding-top: 2rem; }
+  footer .brown_message p {
+    margin: auto;
+    width: 45%;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic; }
+  footer .brown_message span {
+    font-weight: bold; }
+  footer .brown_message #copyright {
+    font-style: initial;
+    padding-top: 2rem; }
 
 @media only screen and (max-width: 768px) and (min-width: 0px) {
   .logo {
@@ -594,7 +612,13 @@ footer .brown_message p {
   .frontLanding--p2 {
     bottom: 5%;
     left: 25%;
-    right: 0; } }
+    right: 0; }
+  footer .white_message {
+    font-size: 2rem;
+    flex-wrap: wrap;
+    text-align: center; }
+  footer .brown_message p {
+    width: 80%; } }
 
 @media only screen and (max-width: 1230px) and (min-width: 768px) {
   .logo {
