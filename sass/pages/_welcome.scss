@@ -41,6 +41,7 @@
 // IMG SHOWCASE AND FLEX
 
 .image_gallery {
+  position: relative;
   display: flex;
   align-items: center;
   height: 35rem;
@@ -57,6 +58,12 @@
     }
   }
 }
+
+
+
+
+// IMAGE HOVER TEXT {
+
 
 // FOOTER
 
@@ -96,10 +103,16 @@ footer {
 // MOBILE STYLES
 
 @media only screen and (max-width: 768px) and (min-width: 0px) {
+  .dropdown {
+    display: none;
+  }
+  #about {
+    display: none !important;
+  }
   .logo {
     height: 350px;
     width: auto;
-    top: 450px;
+    top: 550px;
     margin: 0 auto;
   }
   .frontLanding {
@@ -125,6 +138,14 @@ footer {
         width: 80%;
       }
     }
+  }
+
+  .main-nav--hide {
+    display: block;
+  }
+
+  .image_gallery {
+    height: 20rem;
   }
 }
 

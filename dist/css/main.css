@@ -495,10 +495,48 @@ header {
   display: block;
   background-color: #8c6f55;
   text-align: center;
-  font-size: 1.7rem;
-  color: #111aa0;
-  font-weight: bold; }
+  font-size: 2rem;
+  color: #0b0b46;
+  font-weight: bold;
+  padding: 1rem;
+  border-bottom: 5px solid black; }
 
+.dropdown {
+  position: relative; }
+  .dropdown--content {
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding-top: 3.45rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 0; }
+  .dropdown a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem; }
+  .dropdown a.sub {
+    text-align: center;
+    border-bottom: 1px solid white; }
+    .dropdown a.sub:hover {
+      transition: all 0.1s;
+      background-color: #8c6f55; }
+  .dropdown:hover .dropdown--content {
+    display: block; }
+  .dropdown li {
+    position: relative;
+    z-index: 2; }
+
+#about a:hover {
+  color: white; }
+
+#about {
+  border-bottom: 1px solid white; }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
 /* ================================= 
   Media Queries
 ==================================== */
@@ -520,7 +558,9 @@ header {
       margin: 0 auto;
       max-width: 1150px; }
       .header .header a {
-        margin-left: 0; } }
+        margin-left: 0; }
+  .main-nav--hide {
+    display: none !important; } }
 
 @media (min-width: 1025px) {
   .logo {
@@ -560,6 +600,7 @@ header {
     bottom: 20%; }
 
 .image_gallery {
+  position: relative;
   display: flex;
   align-items: center;
   height: 35rem;
@@ -600,10 +641,14 @@ footer .brown_message {
     padding-top: 2rem; }
 
 @media only screen and (max-width: 768px) and (min-width: 0px) {
+  .dropdown {
+    display: none; }
+  #about {
+    display: none !important; }
   .logo {
     height: 350px;
     width: auto;
-    top: 450px;
+    top: 550px;
     margin: 0 auto; }
   .frontLanding--p1 {
     bottom: 15%;
@@ -618,7 +663,11 @@ footer .brown_message {
     flex-wrap: wrap;
     text-align: center; }
   footer .brown_message p {
-    width: 80%; } }
+    width: 80%; }
+  .main-nav--hide {
+    display: block; }
+  .image_gallery {
+    height: 20rem; } }
 
 @media only screen and (max-width: 1230px) and (min-width: 768px) {
   .logo {

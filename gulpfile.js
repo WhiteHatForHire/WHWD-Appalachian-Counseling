@@ -14,6 +14,9 @@ gulp.task('import', function () {
     gulp.src('./views/index.html')
         .pipe(htmlImport('./views/components/'))
         .pipe(gulp.dest('dist')); 
+    gulp.src('./views/about_you.html')
+        .pipe(htmlImport('./views/components/'))
+        .pipe(gulp.dest('dist')); 
 });
  
 gulp.task('watch', function () {
