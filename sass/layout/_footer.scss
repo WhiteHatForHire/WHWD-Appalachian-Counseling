@@ -1,3 +1,12 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+.quote {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  font-size: 1.3rem;
+}
+.brown_message #copyright {
+  border-top: 5px rgba(0, 0, 0, 0.445) solid;
+  width: 100%;
+}

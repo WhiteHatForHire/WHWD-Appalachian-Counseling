@@ -571,6 +571,15 @@ header {
     flex-direction: row;
     justify-content: space-between; } }
 
+.quote {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  font-size: 1.3rem; }
+
+.brown_message #copyright {
+  border-top: 5px rgba(0, 0, 0, 0.445) solid;
+  width: 100%; }
+
 .frontLanding {
   height: 90vh;
   width: 100%;
@@ -602,6 +611,7 @@ header {
     bottom: 20%; }
 
 .image_gallery {
+  border-top: 3px solid black;
   position: relative;
   display: flex;
   align-items: center;
@@ -625,12 +635,13 @@ footer .white_message {
   font-family: "Libre Baskerville", serif;
   justify-content: space-around;
   align-items: center;
-  flex-shrink: 1; }
+  flex-shrink: 1;
+  border-top: 3px black solid;
+  border-bottom: 3px black solid; }
 
 footer .brown_message {
   background-color: #8c6f55;
-  line-height: 1.5;
-  padding-top: 2rem; }
+  line-height: 1.5; }
   footer .brown_message p {
     margin: auto;
     width: 45%;
@@ -677,3 +688,9 @@ footer .brown_message {
   .logo {
     top: 100px;
     width: 30vw; } }
+
+.about_container {
+  background-image: url(../img/about_background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: top; }

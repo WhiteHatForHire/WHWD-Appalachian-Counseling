@@ -41,6 +41,7 @@
 // IMG SHOWCASE AND FLEX
 
 .image_gallery {
+  border-top: 3px solid black;
   position: relative;
   display: flex;
   align-items: center;
@@ -79,11 +80,12 @@ footer {
     justify-content: space-around;
     align-items: center;
     flex-shrink: 1;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
   }
   .brown_message {
     background-color: $main-brown;
     line-height: 1.5;
-    padding-top: 2rem;
     p {
       margin: auto;
       width: 45%;
