@@ -25,7 +25,12 @@
 
 // 6. Page-specific styles
 @import
-  'pages/welcome';
+  'pages/home',
+  'pages/about_me',
+  'pages/about_you',
+  'pages/contact',
+  'pages/nuts_bolts',
+  'pages/therapy';
 
 // 7. Themes
 @import

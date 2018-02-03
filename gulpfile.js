@@ -17,6 +17,18 @@ gulp.task('import', function () {
     gulp.src('./views/about_me.html')
         .pipe(htmlImport('./views/components/'))
         .pipe(gulp.dest('dist')); 
+    gulp.src('./views/about_you.html')
+        .pipe(htmlImport('./views/components/'))
+        .pipe(gulp.dest('dist')); 
+    gulp.src('./views/nuts_bolts.html')
+        .pipe(htmlImport('./views/components/'))
+        .pipe(gulp.dest('dist')); 
+    gulp.src('./views/therapy.html')
+        .pipe(htmlImport('./views/components/'))
+        .pipe(gulp.dest('dist')); 
+    gulp.src('./views/contact.html')
+        .pipe(htmlImport('./views/components/'))
+        .pipe(gulp.dest('dist')); 
 });
  
 gulp.task('watch', function () {
