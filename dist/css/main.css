@@ -532,7 +532,8 @@ header {
     z-index: 2; }
 
 #about a:hover {
-  color: white; }
+  color: white;
+  cursor: default; }
 
 #about {
   border-bottom: 1px solid white; }
