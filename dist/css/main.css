@@ -492,6 +492,7 @@ header {
         color: black; }
 
 .mobile-only {
+  font-family: "Berkshire Swash", cursive;
   display: block;
   background-color: #8c6f55;
   text-align: center;
@@ -603,9 +604,10 @@ header {
   position: relative;
   display: flex;
   align-items: center;
-  height: 35rem;
+  height: 38rem;
   background-color: #62909a; }
   .image_gallery--pictures {
+    width: 100%;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -638,7 +640,8 @@ footer .brown_message {
     font-weight: bold; }
   footer .brown_message #copyright {
     font-style: initial;
-    padding-top: 2rem; }
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
 
 @media only screen and (max-width: 768px) and (min-width: 0px) {
   .dropdown {

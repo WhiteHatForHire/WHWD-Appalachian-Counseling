@@ -44,9 +44,10 @@
   position: relative;
   display: flex;
   align-items: center;
-  height: 35rem;
+  height: 38rem;
   background-color: $main-blue;
   &--pictures {
+    width: 100%;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -96,6 +97,7 @@ footer {
     #copyright {
       font-style: initial;
       padding-top: 2rem;
+      padding-bottom: 2rem;
     }
   }
 }
