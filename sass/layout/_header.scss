@@ -118,12 +118,18 @@
   Media Queries
 ==================================== */
 @media (max-width: 1000px) {
-  #none-home {
-    top: 10rem !important;
+  #non-home {
+    display: none;
+  }
+}
+@media (max-width: 769px) {
+  #non-home {
+    display: none;
   }
 }
 
 @media (min-width: 769px) {
+  
   .mobile-only {
     display: none;
   }

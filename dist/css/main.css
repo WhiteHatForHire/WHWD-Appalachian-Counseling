@@ -553,8 +553,12 @@ header {
   Media Queries
 ==================================== */
 @media (max-width: 1000px) {
-  #none-home {
-    top: 10rem !important; } }
+  #non-home {
+    display: none; } }
+
+@media (max-width: 769px) {
+  #non-home {
+    display: none; } }
 
 @media (min-width: 769px) {
   .mobile-only {
@@ -718,7 +722,7 @@ footer .brown_message {
   color: white; }
 
 #title {
-  top: 4.5rem;
+  top: 4rem;
   left: 20rem;
   font-size: 3rem;
   position: absolute;
@@ -748,7 +752,7 @@ footer .brown_message {
 
 @media only screen and (max-width: 1350px) and (min-width: 0px) {
   .about_container {
-    height: 90rem; }
+    height: 100rem; }
     .about_container #title {
       left: 0;
       right: 0;
