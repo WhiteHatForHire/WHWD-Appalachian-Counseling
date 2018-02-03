@@ -1,16 +1,75 @@
 .about_container {
+  position: relative;
   background-image: url(../img/about_background.jpg);
-  height: 100vh;
+  height: 80rem;
   background-size: cover;
   background-position: top;
+  font-family: $baskerville;
+  color: white;
 }
 
+#title {
+  top: 4.5rem;
+  left: 20rem;
+  font-size: 3rem;
+  position: absolute;
+  z-index: 1;
+}
 
+#teri_headshot {
+  position: absolute;
+  top: 5rem;
+  right: 7rem;
+  width: 22%;
+  height: auto;
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.7);
+}
+
+#about_story {
+  position: absolute;
+  width: 40rem;
+  line-height: 1.6;
+  padding: 2rem 4rem;
+  font-size: 1.2rem;
+  top: 8rem;
+  left: 18rem;
+  background-color: rgba(70, 6, 70, 0.61);
+}
 
 // MOBILE STYLES
 
-@media only screen and (max-width: 768px) and (min-width: 0px) {
+@media only screen and (max-width: 520px) and (min-width: 0px) {
+  #about_story {
+    width: 25rem;
+  }
 }
 
-@media only screen and (max-width: 1230px) and (min-width: 768px) {
+@media only screen and (max-width: 1350px) and (min-width: 0px) {
+  #non-home {
+    // display: none;
+  }
+  .about_container {
+    height: 90rem;
+    #title {
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: center;
+    }
+    #teri_headshot {
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: 11rem;
+      width: 18rem;
+    }
+    #about_story {
+      top: 33rem;
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: left;
+      padding: 10px 2rem;
+    }
+  }
 }

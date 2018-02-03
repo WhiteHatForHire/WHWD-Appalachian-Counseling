@@ -100,16 +100,34 @@
   border-bottom: 1px solid white;
 }
 
+// LOGO
+#non-home {
+  z-index: 1;
+  width: 10rem;
+  left: 1rem;
+  top: 5px;
+}
+
+.logo {
+  z-index: 3;
+}
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 /* ================================= 
   Media Queries
 ==================================== */
+@media (max-width: 1000px) {
+  #none-home {
+    top: 10rem !important;
+  }
+}
 
 @media (min-width: 769px) {
   .mobile-only {
     display: none;
   }
+  
   .logo {
     height: 100px;
     width: auto;
@@ -120,6 +138,7 @@
     display: flex;
   }
   .header {
+    z-index: 3;
     flex-direction: column;
     align-items: center;
     .header {

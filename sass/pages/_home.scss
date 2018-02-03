@@ -15,7 +15,7 @@
   position: absolute;
   height: auto;
   width: 25vw;
-  top: 10px;
+  top: -70px;
   left: 10px;
   right: 0;
   // margin: 0 auto;
@@ -107,6 +107,12 @@ footer {
 // MOBILE STYLES
 
 @media only screen and (max-width: 768px) and (min-width: 0px) {
+  img.logo {
+    width: 80%;
+    height: auto;
+    top: 4rem;
+  }
+  
   .dropdown {
     display: none;
   }
@@ -155,7 +161,7 @@ footer {
 
 @media only screen and (max-width: 1230px) and (min-width: 768px) {
   .logo {
-    top: 100px;
+    top: 10px;
     width: 30vw;
   }
 }

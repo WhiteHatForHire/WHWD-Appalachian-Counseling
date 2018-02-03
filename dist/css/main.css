@@ -13,7 +13,8 @@ html {
   -ms-text-size-adjust: 100%;
   /* 3 */
   -webkit-text-size-adjust: 100%;
-  /* 3 */ }
+  /* 3 */
+  font-size: 100%; }
 
 /* Sections
    ========================================================================== */
@@ -538,10 +539,23 @@ header {
 #about {
   border-bottom: 1px solid white; }
 
+#non-home {
+  z-index: 1;
+  width: 10rem;
+  left: 1rem;
+  top: 5px; }
+
+.logo {
+  z-index: 3; }
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /* ================================= 
   Media Queries
 ==================================== */
+@media (max-width: 1000px) {
+  #none-home {
+    top: 10rem !important; } }
+
 @media (min-width: 769px) {
   .mobile-only {
     display: none; }
@@ -553,6 +567,7 @@ header {
   .main-nav {
     display: flex; }
   .header {
+    z-index: 3;
     flex-direction: column;
     align-items: center; }
     .header .header {
@@ -592,7 +607,7 @@ header {
   position: absolute;
   height: auto;
   width: 25vw;
-  top: 10px;
+  top: -70px;
   left: 10px;
   right: 0; }
 
@@ -656,6 +671,10 @@ footer .brown_message {
     padding-bottom: 2rem; }
 
 @media only screen and (max-width: 768px) and (min-width: 0px) {
+  img.logo {
+    width: 80%;
+    height: auto;
+    top: 4rem; }
   .dropdown {
     display: none; }
   #about {
@@ -686,11 +705,65 @@ footer .brown_message {
 
 @media only screen and (max-width: 1230px) and (min-width: 768px) {
   .logo {
-    top: 100px;
+    top: 10px;
     width: 30vw; } }
 
 .about_container {
+  position: relative;
   background-image: url(../img/about_background.jpg);
-  height: 100vh;
+  height: 80rem;
   background-size: cover;
-  background-position: top; }
+  background-position: top;
+  font-family: "Libre Baskerville", serif;
+  color: white; }
+
+#title {
+  top: 4.5rem;
+  left: 20rem;
+  font-size: 3rem;
+  position: absolute;
+  z-index: 1; }
+
+#teri_headshot {
+  position: absolute;
+  top: 5rem;
+  right: 7rem;
+  width: 22%;
+  height: auto;
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.7); }
+
+#about_story {
+  position: absolute;
+  width: 40rem;
+  line-height: 1.6;
+  padding: 2rem 4rem;
+  font-size: 1.2rem;
+  top: 8rem;
+  left: 18rem;
+  background-color: rgba(70, 6, 70, 0.61); }
+
+@media only screen and (max-width: 520px) and (min-width: 0px) {
+  #about_story {
+    width: 25rem; } }
+
+@media only screen and (max-width: 1350px) and (min-width: 0px) {
+  .about_container {
+    height: 90rem; }
+    .about_container #title {
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: center; }
+    .about_container #teri_headshot {
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: 11rem;
+      width: 18rem; }
+    .about_container #about_story {
+      top: 33rem;
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: left;
+      padding: 10px 2rem; } }
