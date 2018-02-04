@@ -93,8 +93,33 @@ footer {
       font-family: $baskerville;
       font-style: italic;
     }
+    .quote{
+      /* IE10+ */ 
+      background-image: -ms-radial-gradient(center, ellipse farthest-corner, #D4A67E 40%, #8C6F55 100%);
+      /* Mozilla Firefox */ 
+      background-image: -moz-radial-gradient(center, ellipse farthest-corner, #D4A67E 40%, #8C6F55 100%);
+      /* Opera */ 
+      background-image: -o-radial-gradient(center, ellipse farthest-corner, #D4A67E 40%, #8C6F55 100%);
+      /* Webkit (Safari/Chrome 10) */ 
+      background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(40, #D4A67E), color-stop(100, #8C6F55));
+      /* Webkit (Chrome 11+) */ 
+      background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #D4A67E 40%, #8C6F55 100%);
+      /* W3C Markup */ 
+      background-image: radial-gradient(ellipse farthest-corner at center, #D4A67E 40%, #8C6F55 100%);
+      border-bottom: 3px black solid;
+      p {
+        padding: 0 1.5rem;
+        border-left: 3px black solid;
+        border-right: 3px black solid;
+      }
+    }
+    .space{
+      background-color: white; 
+      height: 2rem;
+    }
     span {
       font-weight: bold;
+      color: black;
     }
     #copyright {
       font-style: initial;
