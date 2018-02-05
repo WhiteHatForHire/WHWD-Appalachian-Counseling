@@ -1,6 +1,62 @@
+.nuts_back {
+  background-color: rgba(212, 166, 126, 0.5);
+  padding-top: .1rem;
+  margin-top: -.1rem;
+  padding-bottom: 3rem;
+  margin-bottom: -3rem;
+}
+.nuts_main {
+  width: 70%;
+  margin: 0 auto;
+  font-family: $raleway;
+  &--head {
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+  img {
+    margin-top: -25rem;
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-right: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px black;
+  }
+  li {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+.nuts_footer {
+  img {
+    width: 70%;
+    margin: 2rem auto 3rem auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px black;
+    
+  }
+}
+
 // MOBILE STYLES
 
 @media only screen and (max-width: 768px) and (min-width: 0px) {
+  .nuts_main {
+    img {
+      float: none;
+      width: 70%;
+      display: block;
+      margin: 1rem auto;
+    }
+    &--head {
+      margin-left: 1rem;
+    }
+    text-align: center;
+    li {
+      margin-left: -30px;
+      list-style: none;
+    }
+  }
 }
 
 @media only screen and (max-width: 1230px) and (min-width: 768px) {

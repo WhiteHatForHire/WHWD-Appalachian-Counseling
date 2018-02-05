@@ -880,6 +880,11 @@ footer .brown_message {
       .about_you_main .row .col-2-of-2 {
         width: 100%; } }
 
+.contact_back {
+  background-color: #E9D2BE;
+  padding-top: .1rem;
+  padding-bottom: .1rem; }
+
 .address {
   text-align: center;
   margin: 0 auto;
@@ -941,3 +946,50 @@ footer .brown_message {
     width: 90%; }
     .contact_blurb .text_cont2 {
       margin: 2rem 1rem; } }
+
+.nuts_back {
+  background-color: rgba(212, 166, 126, 0.5);
+  padding-top: .1rem;
+  margin-top: -.1rem;
+  padding-bottom: 3rem;
+  margin-bottom: -3rem; }
+
+.nuts_main {
+  width: 70%;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif; }
+  .nuts_main--head {
+    font-size: 2rem;
+    text-decoration: underline; }
+  .nuts_main img {
+    margin-top: -25rem;
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-right: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px black; }
+  .nuts_main li {
+    font-size: 1.5rem;
+    line-height: 2.5rem; }
+
+.nuts_footer img {
+  width: 70%;
+  margin: 2rem auto 3rem auto;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px black; }
+
+@media only screen and (max-width: 768px) and (min-width: 0px) {
+  .nuts_main {
+    text-align: center; }
+    .nuts_main img {
+      float: none;
+      width: 70%;
+      display: block;
+      margin: 1rem auto; }
+    .nuts_main--head {
+      margin-left: 1rem; }
+    .nuts_main li {
+      margin-left: -30px;
+      list-style: none; } }
