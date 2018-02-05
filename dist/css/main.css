@@ -615,7 +615,8 @@ header {
       font-family: "Libre Baskerville", serif; }
     .brown_message ul li a:hover {
       transition: all .5s;
-      color: white; }
+      color: white;
+      text-decoration: underline; }
 
 .row {
   max-width: 114rem;
