@@ -3,10 +3,35 @@
 // -----------------------------------------------------------------------------
 .quote {
   padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
   font-size: 1.3rem;
 }
 .brown_message #copyright {
   border-top: 5px rgba(0, 0, 0, 0.445) solid;
   width: 100%;
+  padding-top: 4rem !important;
+
+}
+
+.brown_message{
+  ul {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-bottom: 0;
+    li {
+      margin: -7rem 1.5rem 1.5rem 0;
+      list-style: none;
+      a {
+        font-size: 1.1rem;
+        color: black;
+        font-weight: bold;
+        font-family: $baskerville;
+      }
+      a:hover{
+        transition: all .5s;
+        color: white;
+      }
+    }
+  }
 }

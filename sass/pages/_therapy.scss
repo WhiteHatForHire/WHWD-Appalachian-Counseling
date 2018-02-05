@@ -1,3 +1,89 @@
+.therapy_main {
+  background-color: #e9d2be;
+  margin-top: 0rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  .flex-container {
+    img {
+      margin: 1rem;
+      &:hover {
+        transition: all 1s;
+        border: 8px white solid;
+      }
+    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .flex-row {
+      position: relative;
+      .text {
+        position: absolute;
+        font-size: 1.3rem;
+        font-family: $baskerville;
+        color: white;
+        text-align: center;
+        line-height: 1.4;
+        width: 95%;
+        &--top {
+          top: 12%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        &--top2 {
+          top: 12%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: rgba(0, 0, 0, 0.726);
+          width: 30%;
+          border-radius: 100px;
+        }
+        &--low {
+          top: 76%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        &--low2 {
+          top: 75%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          background-color: rgba(0, 0, 0, 0.726);
+          width: 60%;
+          border-radius: 100px;
+        }
+        &--top-left {
+          left: 33%;
+          transform: translate(-50%, -50%);
+          top: 20%;
+        }
+        &--center {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        
+      }
+    }
+  }
+
+  // IMAGES
+  &--bw {
+    box-shadow: 0 0 10px 3px black;
+    height: 340px;
+    width: 340px;
+    border-radius: 1000px;
+    &--lighthouse{
+      height: 440px;
+      width: 360px;
+      box-shadow: 0 0 20px 15px rgb(254, 255, 238);
+    }
+  }
+  .therapy_main--bw--lighthouse{
+    z-index: 5;
+  }
+}
+
 // MOBILE STYLES
 
 @media only screen and (max-width: 768px) and (min-width: 0px) {

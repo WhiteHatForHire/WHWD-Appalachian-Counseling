@@ -592,12 +592,30 @@ header {
 
 .quote {
   padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
   font-size: 1.3rem; }
 
 .brown_message #copyright {
   border-top: 5px rgba(0, 0, 0, 0.445) solid;
-  width: 100%; }
+  width: 100%;
+  padding-top: 4rem !important; }
+
+.brown_message ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0; }
+  .brown_message ul li {
+    margin: -7rem 1.5rem 1.5rem 0;
+    list-style: none; }
+    .brown_message ul li a {
+      font-size: 1.1rem;
+      color: black;
+      font-weight: bold;
+      font-family: "Libre Baskerville", serif; }
+    .brown_message ul li a:hover {
+      transition: all .5s;
+      color: white; }
 
 .row {
   max-width: 114rem;
@@ -995,3 +1013,71 @@ footer .brown_message {
     .nuts_main li {
       margin-left: -30px;
       list-style: none; } }
+
+.therapy_main {
+  background-color: #e9d2be;
+  margin-top: 0rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem; }
+  .therapy_main .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .therapy_main .flex-container img {
+      margin: 1rem; }
+      .therapy_main .flex-container img:hover {
+        transition: all 1s;
+        border: 8px white solid; }
+    .therapy_main .flex-container .flex-row {
+      position: relative; }
+      .therapy_main .flex-container .flex-row .text {
+        position: absolute;
+        font-size: 1.3rem;
+        font-family: "Libre Baskerville", serif;
+        color: white;
+        text-align: center;
+        line-height: 1.4;
+        width: 95%; }
+        .therapy_main .flex-container .flex-row .text--top {
+          top: 12%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
+        .therapy_main .flex-container .flex-row .text--top2 {
+          top: 12%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: rgba(0, 0, 0, 0.726);
+          width: 30%;
+          border-radius: 100px; }
+        .therapy_main .flex-container .flex-row .text--low {
+          top: 76%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
+        .therapy_main .flex-container .flex-row .text--low2 {
+          top: 75%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          background-color: rgba(0, 0, 0, 0.726);
+          width: 60%;
+          border-radius: 100px; }
+        .therapy_main .flex-container .flex-row .text--top-left {
+          left: 33%;
+          transform: translate(-50%, -50%);
+          top: 20%; }
+        .therapy_main .flex-container .flex-row .text--center {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
+  .therapy_main--bw {
+    box-shadow: 0 0 10px 3px black;
+    height: 340px;
+    width: 340px;
+    border-radius: 1000px; }
+    .therapy_main--bw--lighthouse {
+      height: 440px;
+      width: 360px;
+      box-shadow: 0 0 20px 15px #feffee; }
+  .therapy_main .therapy_main--bw--lighthouse {
+    z-index: 5; }
