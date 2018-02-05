@@ -72,6 +72,7 @@
 
 footer {
   .white_message {
+    background-color:#E9D2BE; 
     display: flex;
     // margin: 0 auto;
     font-size: 2rem;
@@ -107,7 +108,7 @@ footer {
       background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #D4A67E 40%, #8C6F55 100%);
       /* W3C Markup */ 
       background-image: radial-gradient(ellipse farthest-corner at center, #D4A67E 40%, #8C6F55 100%);
-      border-bottom: 3px black solid;
+      // border-bottom: 3px black solid;
       p {
         padding: 0 1.5rem;
         border-left: 3px black solid;
@@ -115,8 +116,8 @@ footer {
       }
     }
     .space{
-      background-color: white; 
-      height: 2rem;
+      background-color:#E9D2BE; 
+      height: 0rem;
     }
     span {
       font-weight: bold;

@@ -675,6 +675,7 @@ header {
       border-radius: 5px; }
 
 footer .white_message {
+  background-color: #E9D2BE;
   display: flex;
   font-size: 2rem;
   height: 8rem;
@@ -706,15 +707,14 @@ footer .brown_message {
     /* Webkit (Chrome 11+) */
     background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #D4A67E 40%, #8C6F55 100%);
     /* W3C Markup */
-    background-image: radial-gradient(ellipse farthest-corner at center, #D4A67E 40%, #8C6F55 100%);
-    border-bottom: 3px black solid; }
+    background-image: radial-gradient(ellipse farthest-corner at center, #D4A67E 40%, #8C6F55 100%); }
     footer .brown_message .quote p {
       padding: 0 1.5rem;
       border-left: 3px black solid;
       border-right: 3px black solid; }
   footer .brown_message .space {
-    background-color: white;
-    height: 2rem; }
+    background-color: #E9D2BE;
+    height: 0rem; }
   footer .brown_message span {
     font-weight: bold;
     color: black; }
@@ -890,6 +890,7 @@ footer .brown_message {
   margin: 0 auto;
   width: 85%; }
   .address .text_cont {
+    border: 2px black solid;
     background-color: #928982;
     letter-spacing: 3px;
     padding: 0.5rem 0;
@@ -913,6 +914,7 @@ footer .brown_message {
   width: 85%;
   text-indent: 2rem; }
   .contact_blurb .text_cont2 {
+    border: 2px black solid;
     background-color: #62909A;
     display: block;
     padding: 0.5rem 5%;
@@ -962,7 +964,7 @@ footer .brown_message {
     font-size: 2rem;
     text-decoration: underline; }
   .nuts_main img {
-    margin-top: -25rem;
+    margin-top: -22rem;
     float: right;
     width: 50%;
     height: auto;
