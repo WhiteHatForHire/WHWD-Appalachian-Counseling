@@ -671,7 +671,8 @@ header {
     .image_gallery--pictures img {
       box-shadow: 0px 3px 20px 3px rgba(0, 0, 0, 0.54);
       width: 15%;
-      height: 30%; }
+      height: 30%;
+      border-radius: 5px; }
 
 footer .white_message {
   display: flex;
@@ -792,7 +793,8 @@ footer .brown_message {
   font-size: 1.2rem;
   top: 8rem;
   left: 18rem;
-  background-color: rgba(70, 6, 70, 0.61); }
+  background-color: rgba(70, 6, 70, 0.61);
+  border-radius: 5px; }
 
 @media only screen and (max-width: 520px) and (min-width: 0px) {
   #about_story {
@@ -825,7 +827,7 @@ footer .brown_message {
   padding-bottom: 6rem;
   background-image: url(../img/about_you_background.jpg);
   background-size: cover;
-  background-position: left; }
+  background-position: 100% 70%; }
   .about_you_main .row {
     padding-top: 3rem;
     max-width: 70%;
@@ -840,12 +842,14 @@ footer .brown_message {
       font-size: 1.2rem; }
     .about_you_main .row .col-1-of-2 {
       padding: 0.5rem 2rem;
-      background-color: rgba(80, 46, 24, 0.7); }
+      background-color: rgba(80, 46, 24, 0.7);
+      border-radius: 5px; }
     .about_you_main .row .col-2-of-2 {
-      padding: 0.5rem 2rem;
+      padding: 0.5rem 2.5rem;
       margin-top: 5rem;
       background-color: rgba(80, 46, 24, 0.7);
-      width: 40%; }
+      border-radius: 5px;
+      width: 44%; }
 
 @media only screen and (max-width: 460px) and (min-width: 0px) {
   .about_you_main {
@@ -875,3 +879,65 @@ footer .brown_message {
         width: 100%; }
       .about_you_main .row .col-2-of-2 {
         width: 100%; } }
+
+.address {
+  text-align: center;
+  margin: 0 auto;
+  width: 85%; }
+  .address .text_cont {
+    background-color: #928982;
+    letter-spacing: 3px;
+    padding: 0.5rem 0;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2rem;
+    color: white;
+    margin: 2rem;
+    border-radius: 10px; }
+
+.tree_image {
+  background-image: url(../img/tree_image.jpg);
+  border-top: 1rem solid #5d513e;
+  border-bottom: 1rem solid #5d513e;
+  height: 60vh;
+  background-size: cover;
+  background-position: center; }
+
+.contact_blurb {
+  text-align: left;
+  margin: 0 auto;
+  width: 85%;
+  text-indent: 2rem; }
+  .contact_blurb .text_cont2 {
+    background-color: #62909A;
+    display: block;
+    padding: 0.5rem 5%;
+    font-family: "Libre Baskerville", serif;
+    color: white;
+    margin: 2rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    border-radius: 10px; }
+    .contact_blurb .text_cont2 #indented {
+      text-align: center !important; }
+
+@media only screen and (max-width: 768px) and (min-width: 0px) {
+  .address {
+    width: 100%; }
+    .address .text_cont {
+      padding: 0.5rem 1rem;
+      margin: 1rem; }
+  .contact_blurb {
+    width: 100%; }
+    .contact_blurb .text_cont2 {
+      padding: 0.5rem 1rem;
+      margin: 1rem; } }
+
+@media only screen and (max-width: 1230px) and (min-width: 768px) {
+  .address {
+    width: 90%; }
+    .address .text_cont {
+      margin: 2rem 1rem; }
+  .contact_blurb {
+    width: 90%; }
+    .contact_blurb .text_cont2 {
+      margin: 2rem 1rem; } }
