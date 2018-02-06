@@ -647,7 +647,7 @@ header {
 .frontLanding {
   height: 90vh;
   width: 100%;
-  background-image: linear-gradient(transparent 100%, rgba(0, 0, 0, 0.7) 80%), url(../img/Font-Page-Dock.jpg);
+  background-image: linear-gradient(transparent 100%, rgba(0, 0, 0, 0.7) 80%), url(http://res.cloudinary.com/whitehatwebdev/image/upload/q_auto:best/v1517893182/Font-Page-Dock_ipxmmr.jpg);
   background-size: cover;
   background-position: top;
   box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.295); }
@@ -782,7 +782,7 @@ footer .brown_message {
 
 .about_container {
   position: relative;
-  background-image: url(../img/about_background.jpg);
+  background-image: url(http://res.cloudinary.com/whitehatwebdev/image/upload/q_auto:eco/v1517890843/about_background_puqzue.jpg);
   height: 80rem;
   background-size: cover;
   background-position: top;
@@ -844,7 +844,7 @@ footer .brown_message {
 .about_you_main {
   height: auto;
   padding-bottom: 6rem;
-  background-image: url(../img/about_you_background.jpg);
+  background-image: url(http://res.cloudinary.com/whitehatwebdev/image/upload/c_crop,g_auto:none,h_1022,q_auto:good,w_1216,x_1216,y_2160/v1517890872/about_you_background_hjrslk.jpg);
   background-size: cover;
   background-position: 100% 70%; }
   .about_you_main .row {
@@ -920,7 +920,7 @@ footer .brown_message {
     border-radius: 10px; }
 
 .tree_image {
-  background-image: url(../img/tree_image.jpg);
+  background-image: url(https://res.cloudinary.com/whitehatwebdev/image/upload/q_auto:eco/v1517890881/tree_image_zlszhj.jpg);
   border-top: 1rem solid #5d513e;
   border-bottom: 1rem solid #5d513e;
   height: 60vh;
