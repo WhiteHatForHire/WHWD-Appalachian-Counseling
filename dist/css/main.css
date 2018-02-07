@@ -844,9 +844,9 @@ footer .brown_message {
 .about_you_main {
   height: auto;
   padding-bottom: 6rem;
-  background-image: url(http://res.cloudinary.com/whitehatwebdev/image/upload/c_crop,g_auto:none,h_1022,q_auto:good,w_1216,x_1216,y_2160/v1517890872/about_you_background_hjrslk.jpg);
+  background-image: url(http://res.cloudinary.com/whitehatwebdev/image/upload/q_auto:eco/v1518031959/lichen_t0ypao.jpg);
   background-size: cover;
-  background-position: 100% 70%; }
+  background-position: bottom; }
   .about_you_main .row {
     padding-top: 3rem;
     max-width: 70%;
@@ -861,12 +861,12 @@ footer .brown_message {
       font-size: 1.2rem; }
     .about_you_main .row .col-1-of-2 {
       padding: 0.5rem 2rem;
-      background-color: rgba(80, 46, 24, 0.7);
+      background-color: rgba(80, 46, 24, 0.8);
       border-radius: 5px; }
     .about_you_main .row .col-2-of-2 {
       padding: 0.5rem 2.5rem;
       margin-top: 5rem;
-      background-color: rgba(80, 46, 24, 0.7);
+      background-color: rgba(80, 46, 24, 0.8);
       border-radius: 5px;
       width: 44%; }
 
