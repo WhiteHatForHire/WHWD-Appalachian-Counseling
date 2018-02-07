@@ -36,3 +36,9 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .brown_message ul {
+    display: none;
+  }
+}
