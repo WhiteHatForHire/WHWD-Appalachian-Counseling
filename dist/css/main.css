@@ -14,7 +14,8 @@ html {
   /* 3 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
-  font-size: 100%; }
+  font-size: 100%;
+  overflow-x: hidden; }
 
 /* Sections
    ========================================================================== */
@@ -22,7 +23,9 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
-  margin: 0; }
+  margin: 0;
+  width: 100% !important;
+  overflow-x: hidden !important; }
 
 /**
  * Add the correct display in IE 9-.
@@ -502,7 +505,7 @@ header {
   font-weight: bold;
   padding: 1rem;
   border-bottom: 5px solid black;
-  width: 105%; }
+  width: 100%; }
   .mobile-only .bird {
     height: 25px;
     width: auto;
@@ -777,15 +780,17 @@ footer .brown_message {
     width: auto;
     top: 550px;
     margin: 0 auto; }
-  .frontLanding--p1 {
-    bottom: 16%;
-    left: 15%;
-    right: 0; }
-  .frontLanding--p2 {
-    bottom: 3%;
-    width: 90%;
-    left: 25%;
-    right: 0; }
+  .frontLanding {
+    font-size: 1.6rem; }
+    .frontLanding--p1 {
+      bottom: 16%;
+      left: 15%;
+      right: 0; }
+    .frontLanding--p2 {
+      bottom: 4%;
+      width: 90%;
+      left: 15%;
+      right: 0; }
   footer .white_message {
     font-size: 2rem;
     flex-wrap: wrap;
