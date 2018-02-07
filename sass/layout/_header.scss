@@ -46,13 +46,13 @@
   display: block;
   background-color: $main-brown;
   text-align: center;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   color: rgb(11, 11, 70);
   font-weight: bold;
   padding: 1rem;
   border-bottom: 5px solid black;
   .bird {
-    height: 30px;
+    height: 25px;
     width: auto;
     margin-bottom: -6px;
   }
@@ -128,24 +128,24 @@
 ==================================== */
 
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   #non-home {
     width: 12rem;
   }
 }
 
-@media (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   #non-home {
     display: none;
   }
 }
-@media (max-width: 769px) {
+@media only screen and (max-width: 769px) {
   #non-home {
     display: none;
   }
 }
 
-@media (min-width: 769px) {
+@media only screen and (min-width: 769px) {
   
   .mobile-only {
     display: none;
@@ -179,7 +179,7 @@
   
 }
 
-@media (min-width: 1025px) {
+@media only screen and (min-width: 1025px) {
   .logo {
     top: 288px;
   }
