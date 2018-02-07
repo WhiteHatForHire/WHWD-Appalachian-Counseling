@@ -126,6 +126,14 @@
 /* ================================= 
   Media Queries
 ==================================== */
+
+
+@media (min-width: 1200px) {
+  #non-home {
+    width: 12rem;
+  }
+}
+
 @media (max-width: 1000px) {
   #non-home {
     display: none;
