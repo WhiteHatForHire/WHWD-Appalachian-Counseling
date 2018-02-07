@@ -51,6 +51,7 @@
   font-weight: bold;
   padding: 1rem;
   border-bottom: 5px solid black;
+  width: 105%;
   .bird {
     height: 25px;
     width: auto;
@@ -142,6 +143,14 @@
 @media only screen and (max-width: 769px) {
   #non-home {
     display: none;
+  }
+}
+@media only screen and (max-width: 376px) {
+  #non-home {
+    display: none;
+  }
+  .mobile-only {
+    font-size: 2.2rem;
   }
 }
 

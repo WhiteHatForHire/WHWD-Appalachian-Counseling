@@ -501,7 +501,8 @@ header {
   color: #0b0b46;
   font-weight: bold;
   padding: 1rem;
-  border-bottom: 5px solid black; }
+  border-bottom: 5px solid black;
+  width: 105%; }
   .mobile-only .bird {
     height: 25px;
     width: auto;
@@ -570,6 +571,12 @@ header {
   #non-home {
     display: none; } }
 
+@media only screen and (max-width: 376px) {
+  #non-home {
+    display: none; }
+  .mobile-only {
+    font-size: 2.2rem; } }
+
 @media only screen and (min-width: 769px) {
   .mobile-only {
     display: none; }
@@ -628,7 +635,7 @@ header {
       color: white;
       text-decoration: underline; }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .brown_message ul {
     display: none; } }
 
@@ -776,6 +783,7 @@ footer .brown_message {
     right: 0; }
   .frontLanding--p2 {
     bottom: 5%;
+    width: 90%;
     left: 25%;
     right: 0; }
   footer .white_message {

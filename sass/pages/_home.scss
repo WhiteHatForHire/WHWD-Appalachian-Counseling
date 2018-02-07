@@ -131,6 +131,10 @@ footer {
   }
 }
 
+// .mobile-only {
+//   padding: 2rem;
+// }
+
 // MOBILE STYLES
 
 @media only screen and (max-width: 768px) and (min-width: 0px) {
@@ -160,6 +164,7 @@ footer {
     }
     &--p2 {
       bottom: 5%;
+      width: 90%;
       left: 25%;
       right: 0;
     }
