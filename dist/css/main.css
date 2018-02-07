@@ -24,8 +24,7 @@ html {
  */
 body {
   margin: 0;
-  width: 100% !important;
-  overflow-x: hidden !important; }
+  width: 100% !important; }
 
 /**
  * Add the correct display in IE 9-.
