@@ -546,7 +546,8 @@ header {
   cursor: default; }
 
 .dropdown:hover #about {
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid white;
+  margin-bottom: -1px; }
 
 #non-home {
   z-index: 1;
@@ -661,14 +662,11 @@ header {
   .row .col-1-of-4 {
     width: calc((100% - 3 * 6rem) / 4); }
   .row .col-2-of-3 {
-    width: calc(
- ((100% - 2 * 6rem) / 3) * 2 + 6rem); }
+    width: calc( ((100% - 2 * 6rem) / 3) * 2 + 6rem); }
   .row .col-2-of-4 {
-    width: calc(
- ((100% - 3 * 6rem) / 4) * 2 + 6rem); }
+    width: calc( ((100% - 3 * 6rem) / 4) * 2 + 6rem); }
   .row .col-3-of-4 {
-    width: calc(
- 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+    width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .frontLanding {
   height: 90vh;
