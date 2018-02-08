@@ -105,9 +105,12 @@
 #about a:hover {
   color: white;
   cursor: default;
+  
 }
-#about {
-  border-bottom: 1px solid white;
+.dropdown:hover {
+  #about{
+    border-bottom: 1px solid white;
+  }
 }
 
 // LOGO
@@ -168,6 +171,7 @@
   .header,
   .main-nav {
     display: flex;
+    
   }
   .header {
     z-index: 3;

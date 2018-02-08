@@ -545,7 +545,7 @@ header {
   color: white;
   cursor: default; }
 
-#about {
+.dropdown:hover #about {
   border-bottom: 1px solid white; }
 
 #non-home {
@@ -930,6 +930,12 @@ footer .brown_message {
   padding-top: .1rem;
   padding-bottom: .1rem; }
 
+#smaller {
+  font-size: 1.5rem;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 1rem; }
+
 .address {
   text-align: center;
   margin: 0 auto;
@@ -967,7 +973,7 @@ footer .brown_message {
     color: white;
     margin: 2rem;
     line-height: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     border-radius: 10px; }
     .contact_blurb .text_cont2 #indented {
       text-align: center !important; }

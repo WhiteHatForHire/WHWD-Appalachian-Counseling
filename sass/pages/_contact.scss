@@ -4,6 +4,12 @@
   padding-top: .1rem;
   padding-bottom: .1rem;
 }
+#smaller {
+  font-size: 1.5rem;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
 .address {
   .text_cont {
     border: 2px black solid;
@@ -41,7 +47,7 @@
     color: white;
     margin: 2rem;
     line-height: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     border-radius: 10px;
     
     #indented {
