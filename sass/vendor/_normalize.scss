@@ -461,3 +461,19 @@ template {
 [hidden] {
   display: none;
 }
+
+
+
+// IE FIXES
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    #logo-home {
+      top: 10px !important;
+      width: 30vw !important;
+  }
+}
+// @media only screen and  {
+//   .logo {
+//     top: 10px !important;
+//     width: 30vw !important;
+//   }
+// }

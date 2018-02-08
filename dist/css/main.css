@@ -403,6 +403,11 @@ template {
 [hidden] {
   display: none; }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #logo-home {
+    top: 10px !important;
+    width: 30vw !important; } }
+
 /**
  * Set up a decent box model on the root element
  */
@@ -557,6 +562,9 @@ header {
 
 .logo {
   z-index: 3; }
+
+.fa-sort-down {
+  font-size: 1.2rem; }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /* ================================= 
