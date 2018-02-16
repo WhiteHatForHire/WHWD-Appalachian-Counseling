@@ -6,8 +6,11 @@
   .flex-container {
     img {
       margin: 1rem;
+      transition-property:border;
+      transition-duration: 1s;
+      border: 0px white solid;
+      
       &:hover {
-        transition: all 1s;
         border: 8px white solid;
       }
     }

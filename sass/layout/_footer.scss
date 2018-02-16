@@ -27,9 +27,11 @@
         color: black;
         font-weight: bold;
         font-family: $baskerville;
+        text-decoration: none;
+        transition: all .5s;
+        
       }
       a:hover{
-        transition: all .5s;
         color: white;
         text-decoration: underline;
       }
