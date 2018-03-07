@@ -4,13 +4,14 @@
 <div class="contact_back">
   <div class="address">
     <div class="text_cont">
-      <p>410 East Louther St.</p>
-      <p>Carlisle, PA 17013</p>
+      <p>410 East Louther St. <br> Carlisle, PA 17013</p>
       <p>701-601-2235</p>
       <p id="smaller">*My office is located in the historic Minerva Mills building, behind the Taco Bell in Carlisle. Please enter through
         door #2, go up the stairs to the first door on the left, enter the alcove, and take the door on the right into the
         waiting room.</p>
     </div>
+<div id="map"></div>
+    
 
   </div>
 
@@ -31,5 +32,21 @@
 </div>
 
 @import "footer.html"
+<script>
+        function initMap() {
+        var appalachian = {lat: 40.202387, lng: -77.180326};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: appalachian
+        });
+        var marker = new google.maps.Marker({
+          position: appalachian,
+          map: map
+        });
+      }
 
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfLFzHLhpGZ-IRH_Jz-3Alpn1Hb0nDalU&callback=initMap">
+</script>
 </html>

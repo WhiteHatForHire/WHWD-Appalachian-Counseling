@@ -4,17 +4,22 @@
   padding-top: .1rem;
   padding-bottom: .1rem;
 }
+#map {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
 #smaller {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   width: 70%;
   margin: 0 auto;
   padding-bottom: 1rem;
+  line-height: 1.5rem;
 }
 .address {
   .text_cont {
     border: 2px black solid;
     background-color: #928982;
-    letter-spacing: 3px;
     padding: 0.5rem 0;
     font-family: $baskerville;
     font-size: 2rem;
@@ -47,7 +52,7 @@
     color: white;
     margin: 2rem;
     line-height: 2rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     border-radius: 10px;
     
     #indented {
